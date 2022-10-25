@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+
+  <title>Bank</title> 
+
+  <link rel="stylesheet" href="style.css"> 
+
+ </head> 
+
+ <body> 
+
+  <section> 
+
+   <div id="login-area" class="container main-part"> 
+
+    <h1> Welcome to Gorib er Bank !!!</h1> 
+
+   </div> 
+
+  </section> 
+
+  <section id="transition-area" class="container"> 
+
+   <div class="row"> 
+
+    <div class="col-md-4"> 
+
+     <div class="deposit money-state"> 
+
+      <h5>$Deposit</h5> 
+
+      <h1>$<span id="currantDepositId">00</span></h1> 
+
+     </div> 
+
+    </div> 
+
+    <div class="col-md-4"> 
+
+     <div class="withdraw money-state"> 
+
+      <h5>Withdraw</h5> 
+
+      <h1>$<span id="withdrawBtnAmount">00</span></h1> 
+
+     </div> 
+
+    </div> 
+
+    <div class="col-md-4"> 
+
+     <div class="balance money-state"> 
+
+      <h5>Balance</h5> 
+
+      <h1>$<span id="balanceAmount">1240</span></h1> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+   <div class="row"> 
+
+    <div class="col-md-6"> 
+
+     <div class="box1"> 
+
+      <h4>Deposit</h4> 
+
+      <input id="depositAmountId" type="text" class="form-control" placeholder="$ amount you want to deposit"> 
+
+      <br> <button id="depositBtn" class="btn btn-warning">deposit</button> 
+
+     </div> 
+
+    </div> 
+
+    <div class="col-md-6"> 
+
+     <div class="box2"> 
+
+      <h4>Withdraw</h4> 
+
+      <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to withdraw"> 
+
+      <br> <button id="withdrawBtn" class="btn btn-warning">withdraw</button> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section> 
+
+  <script src="my.js"></script> 
+
+ </body>
+
+</html>
