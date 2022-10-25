@@ -1,0 +1,77 @@
+body{
+
+    width: 100%;
+
+}
+
+.main-part{
+
+    padding: 100px;
+
+}
+
+.box1{
+
+    margin-top: 50px;
+
+    padding: 50px;
+
+    box-shadow: 5px 5px 10px gray;
+
+    border-radius: 5px;
+
+    background-color: #fee2e2;
+
+}
+
+.box2{
+
+    margin-top: 50px;
+
+    padding: 50px;
+
+    box-shadow: 5px 5px 10px gray;
+
+    border-radius: 5px;
+
+    background-color: #f3e8ff;
+
+}
+
+.transition-area{
+
+    display: none;
+
+    padding: 100px;
+
+}
+
+.money-state{
+
+    color: white;
+
+    padding: 20px 20px;
+
+    border-radius: 15px;
+
+    margin-top: 50px;
+
+}
+
+.deposit{
+
+    background-color: #93c5fd;
+
+}
+
+.withdraw{
+
+    background-color: #86efac;
+
+}
+
+.balance{
+
+    background-color: #fde047;
+
+}
